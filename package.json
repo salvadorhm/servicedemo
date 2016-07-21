@@ -32,8 +32,8 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/anonymous node/sails user/servicedemo.git"
+    "url": "git://github.com/salvadorhm/servicedemo.git"
   },
-  "author": "anonymous node/sails user",
-  "license": ""
+  "author": "Salvador HM",
+  "license": "MIT"
 }

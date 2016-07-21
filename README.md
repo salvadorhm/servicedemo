@@ -1,3 +1,3 @@
 # servicedemo
 
-a [Sails](http://sailsjs.org) application
+a [Sails] service demo whit controller and view
