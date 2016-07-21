@@ -1,6 +1,9 @@
 var MainController = {
     index: function (req, res) {
         res.view('MainController/index');
+        console.log(req.param('email'));
+        console.log(req.param('name'));
+        
         if (req.param('email') != undefined && req.param('name') != undefined) {
             console.log(req.param('email'));
             console.log(req.param('name'));

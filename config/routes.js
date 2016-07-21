@@ -34,6 +34,10 @@ module.exports.routes = {
 
    '/': 'MainController.index',
 
+  /* '/':{
+     view :"MainController/index"
+   }*/
+
   /***************************************************************************
   *                                                                          *
   * Custom routes here...                                                    *

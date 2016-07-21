@@ -1,4 +1,5 @@
-exports.sendInviteEmail = function(options) {
+var EmailService = {
+    sendInviteEmail: function(options) {
 
 var opts = {"type":"messages","call":"send","message":
     {
@@ -13,4 +14,7 @@ var opts = {"type":"messages","call":"send","message":
 };
 
 console.log(opts);
+    }
 };
+
+module.exports = EmailService;
