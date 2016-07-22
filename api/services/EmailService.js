@@ -4,8 +4,8 @@ var EmailService = {
 var opts = {"type":"messages","call":"send","message":
     {
         "subject": "YourIn!",
-        "from_email": "info@balderdash.co",
-        "from_name": "AmazingStartupApp",
+        "from_email": "salvadorhm@gmail.com",
+        "from_name": "Salvador HM",
         "to":[
             {"email": options.email, "name": options.name}
         ],
